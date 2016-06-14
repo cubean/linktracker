@@ -1,5 +1,7 @@
 # Link Tracker programming test
 
+[![Build Status](https://travis-ci.org/cubean/linktracker.png)](https://travis-ci.org/cubean/linktracker
+
 ## Overview
 
 This is a simple programming test where the participant creates a super-simple link tracking tool.
