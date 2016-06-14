@@ -1,3 +1,7 @@
+/*                                                                      *\
+**    Link Tracker programming test                           					**
+**    https://github.com/cubean/linktracker.git               					**
+\*                                                                      */
 package code
 
 import scala.xml._
@@ -17,15 +21,17 @@ import javax.xml.stream.XMLStreamException
  *
  * Return the updated HTML document along with a Map of IDs to paths wrapped in
  * a PathTrackerResult.
- */
+ * 
 
-/*
  * Coding by Cubean Liu at 07/05/2016. Modified at 20/05/2016
  * Any questions, please contact with email: cubean@outlook.com
+ *
  */
-
 object LinkTracker {
 
+  /**
+   * a xml document parser function
+   */
   def parseDoc(doc: Elem): PathTrackerResult = {
 
     object counter {
@@ -51,7 +57,7 @@ object LinkTracker {
 
     var totalPaths = 0;
 
-    // an iterated function to find matched link with original order
+    //an iterated function to find matched link with original order 
     def trackNode(node: NodeSeq): NodeSeq = node match {
       case <html>{ ns @ _* }</html> => {
         <html>{ ns.map(trackNode) }</html>
