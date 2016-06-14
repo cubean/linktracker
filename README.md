@@ -1,6 +1,8 @@
 # Link Tracker programming test
 
 [![Build Status](https://travis-ci.org/cubean/linktracker.svg?branch=master)](https://travis-ci.org/cubean/linktracker)
+[![Coverage Status](https://coveralls.io/github/cubean/linktracker.svg?branch=master)](https://coveralls.io/github/cubean/linktracker?branch=master)
+
 ## Overview
 
 This is a simple programming test where the participant creates a super-simple link tracking tool.
