@@ -99,5 +99,8 @@ object LinkTracker {
   }
 }
 
+/**
+ * PathTrackerResult class
+ */
 case class PathTrackerResult(trackedDoc: String, encodedPaths: Map[Int, String],
                              uniquePaths: Int, totalPaths: Int) 
