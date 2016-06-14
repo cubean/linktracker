@@ -1,7 +1,7 @@
 # Link Tracker programming test
 
 [![Build Status](https://travis-ci.org/cubean/linktracker.svg?branch=master)](https://travis-ci.org/cubean/linktracker)
-[![Coverage Status](https://codecov.io/github/cubean/linktracker/badge.svg?branch=master)](https://codecov.io/github/cubean/linktracker?branch=master)
+[![codecov](https://codecov.io/gh/cubean/linktracker/branch/master/graph/badge.svg)](https://codecov.io/gh/cubean/linktracker)
 
 ## Overview
 
