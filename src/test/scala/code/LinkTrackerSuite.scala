@@ -4,6 +4,9 @@ import org.junit.runner.RunWith
 import org.scalatest._
 import org.scalatest.junit.JUnitRunner
 
+/**
+  * for test
+  */
 @RunWith(classOf[JUnitRunner])
 class LinkTrackerSpec extends FlatSpec with Matchers {
   val res1 = LinkTracker.parseDoc(Sample1.originalDoc)
